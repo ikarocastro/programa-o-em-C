@@ -1,1 +1,6 @@
-# programa-o-em-C
+#include <stdio.h>
+ 
+int main() {
+    printf("Olá, Mundo\n");
+        return 0;
+}
