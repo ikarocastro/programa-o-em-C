@@ -1,0 +1,11 @@
+  int idade = 45;
+    float altura = 1.90;
+
+        printf("qual e sua idade:");
+            scanf("%d", &idade);
+                printf("a idade é: %d\n", idade);
+
+
+        printf("qual sua altura:");
+            scanf("%f", &altura);
+        printf("A altura é: %f2\n", altura);
