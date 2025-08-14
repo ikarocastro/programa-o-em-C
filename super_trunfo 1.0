@@ -1,1 +1,42 @@
+#include <stdio.h>
 
+int main() {
+        //primeira carta
+    char nomeC[50] = "1";   //NomeC para o numero da carta
+    char nome[50] = "ceará";   //Nome para o nome do Estado
+    char nome2[50] = "Fortaleza"; //Nome2 para o nome da cidade
+    int população = 2000000;   
+    float Área = 1200.25 ;
+    float PIB = 800000000 ;
+    int pontosturisticos = 80;
+    
+        //codigos para a impressão das variaveis Carta1
+    printf("Carta: %s\n", nomeC);
+    printf("Estado: %s\n", nome);
+    printf("nome da cidade: %s\n", nome2);
+    printf("população: %d\n", população);
+    printf("Área: %f\n", Área);
+    printf("PIB: %f\n", PIB);
+    printf("pontos turisticos: %d\n", pontosturisticos);
+        
+        //Codigo Carta2 
+
+    char nomeC2[50] = "2";
+    char nome1[50] = "Rio de Janeiro";
+    char nome3[50] = "Búzios";
+    int população2 = 1500000;
+    float Área2 = 800.50;
+    float pibb = 300000000 ;
+    int pontosturisticos2 = 30;
+
+            //codigos da impressão de variaveis Carta 2
+        printf("Carta: %s\n", nomeC2);
+        printf("Estado: %s\n", nome1);
+        printf("Nome da Cidade: %s\n", nome3);
+        printf("População: %d\n", população2),
+        printf("Área: %f\n", Área2);
+        printf("PIB: %f\n", pibb);
+        printf("pontos turísticos: %d\n", pontosturisticos2);
+
+        return 0;
+}
