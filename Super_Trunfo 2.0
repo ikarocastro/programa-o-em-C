@@ -1,0 +1,56 @@
+#include <stdio.h>
+
+int main() {
+        //primeira carta
+    char nomeC[50] = "1";   //NomeC para o numero da carta
+    char nome[50] = "ceará";   //Nome para o nome do Estado
+    char nome2[50] = "Fortaleza"; //Nome2 para o nome da cidade
+    int população = 2000000;   
+    float Area = 12000 ;
+    float PIB = 800000000 ;
+    int pontosturisticos = 80;
+        
+            //Estado
+    printf("qual o nome do Estado?:");
+      scanf("%s", &nome);
+        printf("O Estado é: %s\n", nome);
+     
+            //Cidade
+    printf("Qual a Cidade?");
+        scanf("%s", &nome2);
+            printf("A Ciade é: %s\n", nome2);
+     
+            //População
+    printf("quanto e a populaçao?:");
+        scanf("%d", &população);
+            printf("a população é: %d\n", população);
+      
+            //Area
+    printf("Quanto é a Área?:");
+        scanf("%f", &Area);
+            printf("A Area é: %f\n", Area);
+      
+            //PIB
+    printf("Quanto é o PIB?:");
+        scanf("%f", &PIB);
+            printf(" O PIB é: %f\n", PIB);
+      
+            //Pontos turísticos
+    printf("Quantos pontos turísticos?:");
+        scanf("%d", &pontosturisticos);
+            printf("Pontos Turísticos: %d\n", pontosturisticos);
+ 
+            
+    //segunda carta 
+
+    char carta2[12]
+    char nome2[12]
+    char nomeCi[12]
+    int população2
+    float Area2
+    float PIB2
+    int Pontos turisticos2
+
+
+}
+
