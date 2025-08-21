@@ -1,0 +1,89 @@
+#include <stdio.h>
+
+int main()
+{
+    // primeira carta
+    char nomeC[50] = "1";         // NomeC para o numero da carta
+    char nome[50] = "ceará";      // Nome para o nome do Estado
+    char nome2[50] = "Fortaleza"; // Nome2 para o nome da cidade
+    int população = 2000000;
+    float Area = 12000;
+    float PIB = 800000000;
+    int pontosturisticos = 80;
+
+    // segunda carta
+    char carta2[12] = "2";            // numero da carta
+    char nome3[20] = "Riodejaneiro";  // nome Estado
+    char nomeCi[20] = "RiodeJaneiro"; // nome Cidade
+    int população2 = 1500000;
+    float Area2 = 15000;
+    float PIB2 = 7000000;
+    int Pontosturisticos2 = 10;
+
+          printf("\n=== Cadastro da Carta 1 ===\n");
+
+    // Estado
+    printf("qual o nome do Estado?:");
+    scanf("%s", &nome);
+    printf("O Estado é: %s\n", nome);
+
+    // Cidade
+    printf("Qual a Cidade?");
+    scanf("%s", &nome2);
+    printf("A Ciade é: %s\n", nome2);
+
+    // População
+    printf("quanto e a populaçao?:");
+    scanf("%d", &população);
+    printf("a população é: %d\n", população);
+
+    // Area
+    printf("Quanto é a Área?:");
+    scanf("%f", &Area);
+    printf("A Area é: %f\n", Area);
+
+    // PIB
+    printf("Quanto é o PIB?:");
+    scanf("%f", &PIB);
+    printf(" O PIB é: %f\n", PIB);
+
+    // Pontos turísticos
+    printf("Quantos pontos turísticos?:");
+    scanf("%d", &pontosturisticos);
+    printf("Pontos Turísticos: %d\n", pontosturisticos);
+
+    // segunda carta
+
+        printf("\n=== Cadastro da Carta 2 ===\n");
+
+            //Estado
+    printf("qual o nome do Estado?:");
+    scanf("%s", &nome3);
+    printf("O Estado é: %s\n", nome3);
+          
+           //Cidade
+    printf("qual o nome da cidade?:");
+    scanf("%s", &nomeCi);
+    printf("A Cidade é: %s\n", nomeCi);
+
+          //População
+    printf("quanto é a população?");
+    scanf("%d", &população2);
+    printf("A população e de: %d\n", população2);
+
+         //Area
+    printf("Quanto é a Area?:");
+    scanf("%f", &Area2);
+    printf("A Area é: %f\n", Area2);
+
+        //PIB
+    printf("Quanto é o PIB?:");
+    scanf("%f", &PIB2);
+    printf("O PIB é: %f\n" PIB2);
+
+        //Pontos Turísticos
+    printf("Quantos pontos turísticos?:");
+    scanf("%d", &Pontosturisticos2);
+    printf("Pontos Turísticos: %d\n", Pontosturisticos2);
+
+}
